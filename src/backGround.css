@@ -1,0 +1,44 @@
+.background{
+   background-image:linear-gradient(to right,rgba(51, 0, 170, 0.24),rgba(51, 0, 170, 0.24)),url("./images/dance pictures/Marriage woman.jpg");
+    /* background-image: url("./images/dance pictures/Marriage woman.jpg"); */
+   background-position:center;
+    height:92.1vh;
+    width: 100%;
+    z-index:10;
+    top:0px;
+    overflow: hidden;
+}
+.headingTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:250px 0px 300px;
+    
+}
+.heading{
+    color: white;
+    font-weight: bolder;
+    font-size:60pt;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+.subHeading{
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+@media screen and (max-width: 640px){
+    .heading{
+    font-size:45pt;
+    margin-top:-8%;
+    line-height:1.5;
+    }
+    .headingTextContainer{
+        padding:150px 0px 300px;
+    }
+    .subHeading{
+        font-size: 18px;
+    }
+
+}

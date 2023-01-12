@@ -1,0 +1,66 @@
+.slider{
+    text-align:left;
+    overflow: hidden;
+}
+.carouselImageContainer{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height:75vh;
+   overflow: hidden;
+}
+.videoSliderContainer{
+    /* background-color: #837878; */
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin-top:20px;
+    }
+    .captionTextContainer{
+        width: 70%;
+        margin-left:16%;
+        padding-bottom:3%;
+    }
+
+ 
+.welcome{
+    font-family: Lucida Calligraphy;
+    font-weight: bold;
+}
+.welcomeText{
+    margin-top:80px;
+    text-align: center;
+}
+.subText{
+    margin-left:50px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+.carousel-control-next, .carousel-control-prev{
+    margin-top:-23%;
+} 
+
+@media screen and (max-width:480px) {
+    .welcome {
+        font-size: 18px;
+    }
+    .carouselImageContainer{
+        width:100%;
+        height:47.5vh;
+     }
+     .carouselImage{
+      width:85%;
+     }
+     .carousel-control-next, .carousel-control-prev{
+    margin-bottom:45%;
+    width:25px;
+}  
+.captionTextContainer{
+    width:90%;
+    margin-left:5%;
+}
+.carousel-indicators{
+    margin-bottom: 2px;
+}
+}

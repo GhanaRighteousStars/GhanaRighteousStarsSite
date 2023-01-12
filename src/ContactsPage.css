@@ -1,0 +1,127 @@
+.ContactsPageContainer{
+    overflow:hidden;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+h5{
+    text-align: center;
+    /* color:black; */
+}
+p{
+    font-weight:450;
+    line-height:2;
+}
+.button{
+    border-radius:5px;
+    text-align: center;
+    padding: 2px 15px 5px 15px;
+    text-decoration: none;
+    cursor:pointer;
+    box-shadow: 1px 1px 2px black;
+    background-color:white;
+    color: #ae6ef7;
+    font-weight: bolder;
+    font-size: 13px;
+
+}
+
+.buttonContainer{
+    margin-top:-15px;
+}
+.socialMediaIcons{
+    line-height: 3;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.fbNdYouTube, .instaNdPhone{
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+    padding-right:10px ;
+}
+
+.youTubeIcon{
+    width: 150px;
+}
+/* .register{
+    display: flex;
+    flex-direction: column;
+} */
+.socialLink {
+    text-decoration: none;
+    color:black;
+} 
+.socialLink:hover{
+    text-decoration: underline;
+    color: white;
+}
+.callingEmoji{
+    width:70px;
+    height:55px;
+    margin-top:-15px;
+}
+.emojiNdHeading{
+        display: flex;
+        flex-direction: row;
+        gap:4px;
+        justify-content: center;
+        padding:5px;
+        color:#111111;
+        margin-top:70px;
+}
+.contactPageTextContainer{
+    display: flex;
+    margin-left: 20px;
+    margin-right:10px;
+}
+.iconNdLink{
+    display: flex;
+    gap:7px;
+}
+.reachUs,.location,.register{
+    padding-top:20px;
+    border-radius:10px;
+    margin-bottom:30px;  
+    /* backdrop-filter: blur(50px); */
+    background-clip: padding-box;  
+    /* color: white; */
+    border: 0.5px ridge;
+    text-align: center;
+    box-shadow: 1px 1px 3px;
+    overflow: hidden;
+}
+
+.reachUs:hover,.location:hover{
+    transform: scale(1.01);
+    background-color: #ae6ef7;
+    color: white;
+}
+.register:hover{
+    transform: scale(1.01);
+    background-color: white;
+    color: #111;
+}
+.register{
+    background-color: #ae6ef7;
+    color: white;
+}
+.registerText{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.registerImage{
+    width:330px; 
+    height: 210px;
+}
+
+@media screen and (max-width:640px){
+    .buttonContainer{
+        margin-bottom:-40%;
+    }
+}

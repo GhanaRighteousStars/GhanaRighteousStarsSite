@@ -1,0 +1,39 @@
+.footerContainer{
+    /* margin-top:200px; */
+     /* background-color: rgba(20, 5, 56, 0.973); */
+     background-color: red;
+    /* padding:15px 15px 0px 15px; */
+}
+.footer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:space-evenly;
+    line-height:50px;
+    color: white;
+    font-weight: bold;
+    padding:3px;
+    width:100%;
+}
+.footer a{
+    color:white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:white;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    gap:7px;
+}
+
+@media screen and (max-width:640px){
+    .socialmediaText{
+        font-size:14px;
+    }
+   .icons{
+    gap:4px;
+   }
+}
